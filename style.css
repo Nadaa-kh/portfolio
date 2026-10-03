@@ -174,7 +174,7 @@ nav ul {
 
     footer{
        width: 100%;
-       padding: 20px 105px;
+       padding: 20px ;
        
     }
 
@@ -182,11 +182,11 @@ nav ul {
         justify-content: center;
         align-items: center;
         display: grid;
-        padding: 20px;
+        padding: 15px;
     }
 
     .project{
-        width: 140%;
+        width: 100%;
         display: grid;
         justify-content: center;
         align-items: center;
@@ -197,11 +197,12 @@ nav ul {
     }
 
     th , td{
-        padding: 20px;
+        padding: 10px;
     }
 
     .cards{
         display: grid;
+        gap: 15px;
         
     }
 
@@ -212,15 +213,16 @@ nav ul {
     }
 
     .home{
-        width: 140%;
+        width: 100%;
         justify-content: center;
         display:grid;
-        margin-top: 130px;
+        margin-top: 70px;
        
     }
 
     .pic img{
-        margin-top: 20px;
+        height: auto;
+        max-width: 90%;
     }
 
     .home h2{
