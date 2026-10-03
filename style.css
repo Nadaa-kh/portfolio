@@ -170,94 +170,184 @@ nav ul {
 }
 
 
- @media (max-width: 768px){
+ @media (max-width: 768px) {
 
-    footer{
-       width: 100%;
-       padding: 20px ;
-       
-    }
-
-    .element{
-        justify-content: center;
-        align-items: center;
-        display: grid;
+    nav {
+        left: 10px;
+        right: 10px;
+        top: 10px;
         padding: 15px;
-    }
-
-    .project{
-        width: 100%;
-        display: grid;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    table{
-       margin: 0 auto;
-    }
-
-    th , td{
-        padding: 10px;
-    }
-
-    .cards{
-        display: grid;
+        flex-direction: column;
         gap: 15px;
-        
     }
 
-    .cardd{
-        width: 100%;
-        box-sizing: border-box;
-       
-    }
-
-    .home{
-        width: 100%;
+    nav ul {
+        gap: 15px;
+        font-size: 16px;
+        flex-wrap: wrap;
         justify-content: center;
-        display:grid;
-        margin-top: 70px;
-       
     }
 
-    .pic img{
-        height: auto;
-        max-width: 90%;
+    .home,
+    .project {
+        width: auto;
+        margin: 20px 15px;
+        padding: 20px;
     }
 
-    .home h2{
+    .home {
+        flex-direction: column;
         text-align: center;
     }
 
-    nav{
-        display: grid;
-       
+    .pic img {
+        width: 220px;
+        height: 220px;
+        margin: 20px 0 0 0;
     }
 
-    .nd{
-       text-align: center;
+    .cards {
+        flex-direction: column;
+        gap: 15px;
+        margin: 0 15px;
     }
 
-    .prop li{
-        margin-top: 20px;
+    .cardd {
+        width: auto;
+        margin: 10px 0;
+        padding: 20px;
     }
 
-    .prop a:hover{
-        color: rgb(64, 88, 61);
+    .project {
+        flex-direction: column;
+        gap: 20px;
     }
-   
-    
 
-    
+    table {
+        width: 100%;
+        font-size: 16px;
+    }
 
+    td,
+    th {
+        padding: 10px;
+    }
+}
 
+@media (max-width: 480px) {
 
+    body {
+        overflow-x: hidden;
+    }
 
+    nav {
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: 10px;
+        width: auto;
+        box-sizing: border-box;
+        padding: 15px 10px;
+    }
 
+    nav ul {
+        gap: 10px;
+        font-size: 14px;
+    }
 
+    .home,
+    .project {
+        width: auto;
+        max-width: 100%;
+        box-sizing: border-box;
+        margin: 15px 10px;
+        padding: 15px;
+    }
 
+    .home {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    .pic img {
+        width: 170px;
+        height: 170px;
+        margin: 15px 0 0 0;
+    }
 
+    h1 {
+        font-size: 24px;
+    }
 
+    h2 {
+        font-size: 20px;
+    }
 
- }
+    h1 span,
+    h2 span {
+        font-size: 20px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin: 0 10px;
+        width: auto;
+    }
+
+    .cardd {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 15px;
+    }
+
+    .tit {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .ski {
+        font-size: 17px;
+        margin-left: 20px;
+    }
+
+    .project {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .cap {
+        font-size: 20px;
+    }
+
+    table {
+        width: 100%;
+        font-size: 14px;
+        table-layout: fixed;
+    }
+
+    td,
+    th {
+        padding: 8px 5px;
+        word-wrap: break-word;
+    }
+
+    footer {
+        padding: 25px 15px;
+    }
+
+    .icons {
+        gap: 25px;
+        font-size: 25px;
+    }
+
+    .c {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
