@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+   background-color: black;
+}
+.home{
+    border: 3px solid rgb(114, 146, 114);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    width: 70%;
+    margin-left: 13%;
+    background-color: rgb(50, 48, 51);
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   
+}
+
+.pic img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 30px;
+    border: 3px solid rgb(114, 146, 114);
+    box-shadow: 0 0 15px rgba(255,255,255,0.3);
+    
+}
+
+
+
+
+
+h2 span{
+    color:rgb(114, 146, 114);
+    font-size: 25px;
+
+}
+h1 span{
+    color:rgb(114, 146, 114);
+    font-size: 25px;
+}
+
+.cardd{
+    border: 3px solid rgb(114, 146, 114);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    width: 500px;
+    background-color: rgb(50, 48, 51);
+    color: white;
+}
+
+.tit{
+   
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.ski{
+    font-size: 20px;
+    margin-left: 40px;
+    list-style-type: circle;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+}
+
+.cardd{
+    flex: 1;
+}
+
+.project{
+    border: 3px solid rgb(114, 146, 114);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    width: 70%;
+    margin-left: 13%;
+    background-color: rgb(50, 48, 51);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+   
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h3{
+    color:rgb(114, 146, 114);
+}
+
+table{
+    border-color:  rgb(114, 146, 114);
+    font-size: 20px;
+    
+}
+
+td , th{
+    padding: 15px;
+}
+
+.cap{
+    letter-spacing: 1px;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+footer{
+    background: rgb(64, 88, 61);
+    padding: 40px;
+}
+
+.element{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    
+}
+
+.icons {
+    gap: 50px;
+    display: flex;
+    font-size: 30px;
+    
+    
+}
+
+.c{
+    color: white;
+    font-size: 25px;
+}
+
+nav{
+    padding: 25px;
+    background-color: rgb(64, 88, 61);
+    left: 25px;
+    right: 25px;
+    top: 20px;
+    border-radius: 18px;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color: white;
+    
+}
+
+nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+
+
+ @media (max-width: 768px){
+
+    footer{
+       width: 100%;
+       padding: 20px 105px;
+       
+    }
+
+    .element{
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        padding: 20px;
+    }
+
+    .project{
+        width: 140%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    table{
+       margin: 0 auto;
+    }
+
+    th , td{
+        padding: 20px;
+    }
+
+    .cards{
+        display: grid;
+        
+    }
+
+    .cardd{
+        width: 100%;
+        box-sizing: border-box;
+       
+    }
+
+    .home{
+        width: 140%;
+        justify-content: center;
+        display:grid;
+        margin-top: 130px;
+       
+    }
+
+    .pic img{
+        margin-top: 20px;
+    }
+
+    .home h2{
+        text-align: center;
+    }
+
+    nav{
+        display: grid;
+       
+    }
+
+    .nd{
+       text-align: center;
+    }
+
+    .prop li{
+        margin-top: 20px;
+    }
+
+    .prop a:hover{
+        color: rgb(64, 88, 61);
+    }
+   
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+ }
