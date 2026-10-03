@@ -269,6 +269,7 @@ nav ul {
     .home {
         flex-direction: column;
         text-align: center;
+        margin-top: 120px;
     }
 
     .pic img {
