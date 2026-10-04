@@ -121,7 +121,7 @@ td , th{
 }
 
 footer{
-    background: rgb(64, 88, 61);
+    background: rgb(47, 68, 44);
     padding: 40px;
 }
 
@@ -137,6 +137,7 @@ footer{
     gap: 50px;
     display: flex;
     font-size: 30px;
+    
     
     
 }
@@ -269,7 +270,7 @@ nav ul {
     .home {
         flex-direction: column;
         text-align: center;
-        margin-top: 120px;
+        margin-top: 118px;
     }
 
     .pic img {
